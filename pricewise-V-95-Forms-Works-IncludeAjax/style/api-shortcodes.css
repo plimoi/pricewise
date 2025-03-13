@@ -1,0 +1,174 @@
+/**
+ * PriceWise API Shortcodes CSS
+ * 
+ * Styles for API shortcodes and form integration.
+ *
+ * @package PriceWise
+ * @since 1.3.0
+ */
+
+/* API Display */
+.pricewise-api-display {
+    margin: 1em 0;
+}
+
+.pricewise-api-display pre {
+    background-color: #f5f5f5;
+    padding: 1em;
+    border-radius: 4px;
+    overflow: auto;
+    max-height: 400px;
+    font-family: monospace;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+/* API Form */
+.pricewise-api-form {
+    margin: 1em 0;
+}
+
+.pricewise-form-fields {
+    margin-bottom: 1em;
+}
+
+.pricewise-form-field {
+    margin-bottom: 0.8em;
+}
+
+.pricewise-form-field label {
+    display: block;
+    margin-bottom: 0.3em;
+    font-weight: bold;
+}
+
+.pricewise-form-field input,
+.pricewise-form-field select,
+.pricewise-form-field textarea {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.pricewise-form-field input:focus,
+.pricewise-form-field select:focus,
+.pricewise-form-field textarea:focus {
+    border-color: #0073aa;
+    outline: none;
+    box-shadow: 0 0 0 1px #0073aa;
+}
+
+.pricewise-form-submit {
+    margin-top: 1em;
+}
+
+.pricewise-loading {
+    display: inline-block;
+    margin-left: 0.5em;
+    color: #777;
+}
+
+.pricewise-loading-inline {
+    display: inline-block;
+    margin-left: 0.5em;
+    color: #777;
+    font-size: 0.9em;
+}
+
+/* API Results */
+.pricewise-api-results {
+    margin: 1em 0;
+    padding: 1em;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+}
+
+.pricewise-api-result-data {
+    margin-top: 1em;
+}
+
+.pricewise-api-success {
+    padding: 0.8em;
+    background-color: #dff0d8;
+    border-radius: 4px;
+    color: #3c763d;
+}
+
+.pricewise-api-error {
+    padding: 0.8em;
+    background-color: #f2dede;
+    border-radius: 4px;
+    color: #a94442;
+}
+
+.pricewise-error-field {
+    border-color: #a94442 !important;
+    background-color: #fff8f8;
+}
+
+.pricewise-field-error {
+    display: block;
+    color: #a94442;
+    font-size: 0.9em;
+    margin-top: 0.3em;
+}
+
+/* Complex API Data Displays */
+.pricewise-api-complex-array {
+    margin: 1em 0;
+}
+
+.pricewise-api-item {
+    margin-bottom: 1em;
+    padding: 1em;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+}
+
+.pricewise-api-item h4 {
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    color: #333;
+}
+
+.pricewise-api-object {
+    margin: 0.5em 0;
+}
+
+.pricewise-api-property {
+    margin-bottom: 0.3em;
+}
+
+/* Placeholder */
+.pricewise-api-placeholder {
+    display: inline-block;
+    min-height: 1em;
+    min-width: 2em;
+}
+
+/* Parameter Fields */
+.pricewise-param-field {
+    margin-bottom: 0.8em;
+    padding: 0.8em;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+}
+
+.pricewise-param-help {
+    display: block;
+    font-size: 0.9em;
+    color: #777;
+    margin-top: 0.3em;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .pricewise-api-display pre {
+        max-height: 300px;
+    }
+    
+    .pricewise-api-form {
+        padding: 0.5em;
+    }
+}

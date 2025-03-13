@@ -1,0 +1,66 @@
+/**
+ * Styles for API advanced configuration
+ *
+ * @package PriceWise
+ * @subpackage ManualAPI
+ */
+
+/* Sortable container styles */
+.sortable-container .sortable-row {
+    display: flex;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.sortable-container .sortable-row:hover {
+    background-color: #f0f0f0;
+}
+
+.sortable-container .sortable-row.ui-sortable-helper {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.sortable-container .ui-sortable-placeholder {
+    visibility: visible !important;
+    background-color: #e0e0e0;
+    border: 1px dashed #aaa;
+    height: 40px;
+}
+
+.drag-handle {
+    width: 20px;
+    height: 20px;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" fill="%23999"/></svg>') no-repeat center;
+    margin-right: 10px;
+    cursor: move;
+    flex-shrink: 0;
+}
+
+/* Section styles */
+.pricewise-api-endpoints,
+.pricewise-api-auth,
+.pricewise-api-params,
+.pricewise-api-body,
+.pricewise-api-response-headers,
+.pricewise-api-test-history {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.pricewise-api-headers {
+    margin-top: 15px;
+}
+
+/* Form styles */
+.pricewise-api-advanced-toggle {
+    margin: 15px 0;
+}
+
+.form-table th {
+    width: 200px;
+    padding-top: 15px;
+}
